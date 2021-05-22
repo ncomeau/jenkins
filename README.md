@@ -2,7 +2,7 @@
 Testing jenkins-server 
 
   - docker.sock mounted as volume so jenkins server can also run docker
-  - Add cbctl to app folder (or to your /var/jenkins/) before building to copy to jenkins server. After jenkins is running remember to update cbctl creds.
+  - Add cbctl to app folder (or to your /var/jenkins/) before building to copy to jenkins server. After jenkins is running remember to update cbctl creds
 
 **Setup**
 
