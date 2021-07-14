@@ -14,7 +14,7 @@ Confirm docker engine is installed:
 
 **Run with docker:**
 
-  - docker run \
+docker run \
           --name jenkins-server \
           --publish 8080:8080 \
           --publish 50000:50000 \
