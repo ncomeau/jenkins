@@ -14,13 +14,7 @@ Confirm docker engine is installed:
 
 **Run with docker:**
 
-docker run \
-          --name jenkins-server \
-          --publish 8080:8080 \
-          --publish 50000:50000 \
-          --volume /var/jenkins:/var/jenkins_home \
-	        --volume /var/run/docker.sock:/var/run/docker.sock \
-          <image/name>
+docker run  --name jenkins-server --publish 8080:8080 --publish 50000:50000  --volume /var/jenkins:/var/jenkins_home --volume /var/run/docker.sock:/var/run/docker.sock <image/name>
 	  
 **OR - Run as service**
 
